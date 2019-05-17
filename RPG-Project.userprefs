@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GoldPickUp.cs">
+    <Files>
+      <File FileName="Assets/Scripts/BotonRespuesta.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ControladorDialogo.cs" Line="51" Column="53" />
+      <File FileName="Assets/Scripts/Dialogo.cs" Line="32" Column="48" />
+      <File FileName="Assets/Scripts/NpcTalk.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Respuesta.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MoneyManager.cs" Line="32" Column="44" />
+      <File FileName="Assets/Scripts/GoldPickUp.cs" Line="26" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
