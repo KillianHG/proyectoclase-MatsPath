@@ -11,33 +11,41 @@ public class PlayerInput : MonoBehaviour {
     Animator anim;
     Rigidbody2D rb;
     Vector2 mov;
-    
+
+    CircleCollider2D interactCollider;
     
     void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        rb.position = new Vector2(so.spawnPositionX, so.spawnPositionY); 
+        rb.position = new Vector2(so.spawnPositionX, so.spawnPositionY);
+
+        interactCollider = transform.GetChild(0).GetComponent<CircleCollider2D>();
     }
     
     void Update()
     {
-        mov = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        /*float horizontal = Input.GetAxis("Horizontal");
-        if (horizontal != 0f)
+        float movX = 0;
+        float movY = 0;
+        if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.position = new Vector3(transform.position.x + (horizontal * speed * Time.deltaTime), transform.position.y, 0);
+            movY += 1;
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            movY += -1;
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            movX += 1;
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            movX += -1;
         }
 
-        float vertical = Input.GetAxis("Vertical");
-        if (vertical != 0f)
-        {
-            transform.position = new Vector3(transform.position.x, transform.position.y + (vertical * speed * Time.deltaTime), 0);
-        }*/
-        /*Vector3 mov = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
-
-        if (mov != Vector3.zero) { 
-        transform.position = Vector3.MoveTowards(transform.position, transform.position + mov, speed * Time.deltaTime);*/
+        mov = new Vector2(movX, movY);
+        //mov = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
         if (Input.GetKeyDown("z"))
         {
@@ -55,6 +63,11 @@ public class PlayerInput : MonoBehaviour {
         } else
         {
             anim.SetBool("walking", false);
+        }
+
+        if (mov != Vector2.zero)
+        {
+            interactCollider.offset = new Vector2(mov.x / 2, mov.y / 2);
         }
     }
 

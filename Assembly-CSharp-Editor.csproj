@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C36470A9-4FDF-B047-1B89-16FCF4A4385E}</ProjectGuid>
+    <ProjectGuid>{78284045-9502-2BC0-B8D8-20B4E25EFA5E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -51,6 +51,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineBasicMultiChannelPerlinEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineBlenderSettingsEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineBlendListCameraEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineBrainEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineClearShotEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineColliderEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineComposerEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineConfinerEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineExternalCameraEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineFramingTransposerEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineFreeLookEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineGroupComposerEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineHardLockToTargetEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineHardLookAtEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineMixingCameraEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineOrbitalTransposerEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachinePathEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachinePOVEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineScreenComposerGuides.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineSmoothPathEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineStateDrivenCameraEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineTargetGroupEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineTrackedDollyEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineTransposerEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineVirtualCameraBaseEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Editors\CinemachineVirtualCameraEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Menus\CinemachineMenu.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\CinemachineBlendDefinitionPropertyDrawer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\CinemachineTagFieldPropertyDrawer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\GetSetDrawer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\LensSettingsPropertyDrawer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\PropertyDrawers\MinDrawer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Utility\BaseEditor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Utility\EmbeddedAssetHelpers.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Utility\SaveDuringPlay.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Utility\ScriptableObjectUtility.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Utility\SerializedPropertyHelper.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Windows\AboutWindow.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Windows\CinemachineColliderPrefs.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Editor\Windows\CinemachineSettings.cs" />
+     <Compile Include="Assets\Cinemachine\PostFX\Editor\CinemachinePostProcessingEditor.cs" />
+     <Compile Include="Assets\Cinemachine\PostFX\Editor\PostFXAutoImport.cs" />
+     <Compile Include="Assets\Cinemachine\Timeline\Editor\CinemachineShotEditor.cs" />
      <Compile Include="Assets\FluentDialogue\Editor\FluentScriptEditor.cs" />
      <Compile Include="Assets\FluentDialogue\Editor\UnityConversationOptionsPresenterEditor.cs" />
      <Compile Include="Assets\FluentDialogue\Editor\WriteResponseHandlerEditor.cs" />
@@ -60,8 +103,9 @@
      <Compile Include="Assets\VSCode\Plugins\Editor\VSCode.cs" />
      <None Include="Assets\InvantorySystem\Licence.txt" />
      <None Include="Assets\FluentDialogue\ReadMe.txt" />
+     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/home/41011561p/Unity/juegomatematico/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/home/41011561p/Unity/MatsPath/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -174,7 +218,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{15404A1D-9F00-476B-A499-2D337EA15DB8}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{7E980905-62F1-33F6-7176-E7A58C7624E2}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
