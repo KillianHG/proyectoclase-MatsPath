@@ -8,6 +8,9 @@ public class PlayerInput : MonoBehaviour {
 
     public PlayerSO so;
 
+    public bool canInteract;
+    public Interactable interactable;
+
     Animator anim;
     Rigidbody2D rb;
     Vector2 mov;
@@ -47,6 +50,11 @@ public class PlayerInput : MonoBehaviour {
         mov = new Vector2(movX, movY);
         //mov = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
+        if (canInteract && Input.GetKeyDown("e"))
+        {
+            interactable.Interact();
+        }
+        
         if (Input.GetKeyDown("z"))
         {
             so.spawnPositionX = rb.position.x;
