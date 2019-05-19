@@ -8,7 +8,7 @@ public class Dialogo : MonoBehaviour {
 
 	private bool dialogoConcluido = false;
 
-	ControladorDialogo controlDialogo;
+	internal ControladorDialogo controlDialogo;
 
 	// Use this for initialization
 	void Start () {
