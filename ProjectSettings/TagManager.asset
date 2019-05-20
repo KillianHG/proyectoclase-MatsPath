@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Obstacle
+  - Confiner
+  - Triangulo
+  - Rombo
+  - Cuadrado
+  - Poligono
+  - Hexagono
   layers:
   - Default
   - TransparentFX
