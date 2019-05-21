@@ -2,15 +2,6 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>6</LangVersion>
-    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <NoConfig>true</NoConfig>
-    <NoStdLib>true</NoStdLib>
-    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
-    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
-    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
-    <_TargetFrameworkDirectories>non_empty_path_generated_by_rider_editor_plugin</_TargetFrameworkDirectories>
-    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_rider_editor_plugin</_FullFrameworkReferenceAssemblyPaths>
-    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -22,7 +13,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
@@ -31,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_1;UNITY_2017_2;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_1;UNITY_2017_2;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -47,388 +38,240 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <HintPath>/opt/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.1f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticlesLegacyModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.StyleSheetsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.WebModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
-    </Reference>
-    <Reference Include="System">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\MonoBleedingEdge\lib\mono\4.6.2-api\System.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\MonoBleedingEdge\lib\mono\4.6.2-api\System.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Core">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\MonoBleedingEdge\lib\mono\4.6.2-api\System.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\MonoBleedingEdge\lib\mono\4.6.2-api\System.Runtime.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\MonoBleedingEdge\lib\mono\4.6.2-api\System.Xml.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="mscorlib">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\MonoBleedingEdge\lib\mono\4.6.2-api\mscorlib.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CSharp">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.1f1\Editor\Data\MonoBleedingEdge\lib\mono\4.6.2-api\Microsoft.CSharp.dll</HintPath>
+      <HintPath>/opt/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBlendListCamera.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBrain.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineClearShot.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineCollider.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineConfiner.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineDollyCart.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineExternalCamera.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineFollowZoom.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineFreeLook.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineMixingCamera.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachinePath.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachinePipeline.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoothPath.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineStateDrivenCamera.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineTargetGroup.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineVirtualCamera.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineComposer.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineFramingTransposer.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineGroupComposer.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineHardLockToTarget.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineHardLookAt.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineOrbitalTransposer.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachinePOV.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineSameAsFollowObject.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineTrackedDolly.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineTransposer.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\AxisState.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CameraState.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineBlend.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineBlenderSettings.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineComponentBase.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineCore.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineDebugLogger.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineExtension.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachinePathBase.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachinePropertyAttribute.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\GaussianFilter.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ICinemachineCamera.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ICinemachineComponent.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\LensSettings.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\NoiseSettings.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\Predictor.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ReflectionHelpers.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\SplineHelpers.cs" />
-    <Compile Include="Assets\Cinemachine\Base\Runtime\Core\UnityVectorExtensions.cs" />
-    <Compile Include="Assets\Cinemachine\PostFX\CinemachinePostFX.cs" />
-    <Compile Include="Assets\Cinemachine\PostFX\CinemachinePostProcessing.cs" />
-    <Compile Include="Assets\Cinemachine\Timeline\CinemachineMixer.cs" />
-    <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
-    <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
-    <Compile Include="Assets\FluentDialogue\Base\FluentNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Base\FluentNodeHandler.cs" />
-    <Compile Include="Assets\FluentDialogue\Base\FluentNodeHandlerAttribute.cs" />
-    <Compile Include="Assets\FluentDialogue\Base\FluentScript.cs" />
-    <Compile Include="Assets\FluentDialogue\Base\FluentString.cs" />
-    <Compile Include="Assets\FluentDialogue\Base\HighlightFix.cs" />
-    <Compile Include="Assets\FluentDialogue\Base\Language.cs" />
-    <Compile Include="Assets\FluentDialogue\Base\LanguageManager.cs" />
-    <Compile Include="Assets\FluentDialogue\Base\OptionsPresenter.cs" />
-    <Compile Include="Assets\FluentDialogue\Base\SoundPlayer.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\BlueGuy2.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation0.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation1.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation10.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation11.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation12.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation13.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation14.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation15.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation16.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation2.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation3.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation4.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation5.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation6.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation7.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation8.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Conversation9.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\ConversationWithImage.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\MyFluentDialogue.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\Player.cs" />
-    <Compile Include="Assets\FluentDialogue\Example\RedGuy2.cs" />
-    <Compile Include="Assets\FluentDialogue\FluentNodeHandlers\ContinueWhenHandler.cs" />
-    <Compile Include="Assets\FluentDialogue\FluentNodeHandlers\PauseFluentNodeHandler.cs" />
-    <Compile Include="Assets\FluentDialogue\FluentNodeHandlers\SoundHandler.cs" />
-    <Compile Include="Assets\FluentDialogue\FluentNodeHandlers\WriteHandler.cs" />
-    <Compile Include="Assets\FluentDialogue\FluentNodeHandlers\YellHandler.cs" />
-    <Compile Include="Assets\FluentDialogue\Initiate\ClickInitiator.cs" />
-    <Compile Include="Assets\FluentDialogue\Initiate\FluentManager.cs" />
-    <Compile Include="Assets\FluentDialogue\Initiate\GameAction.cs" />
-    <Compile Include="Assets\FluentDialogue\Initiate\GameActionInitiator.cs" />
-    <Compile Include="Assets\FluentDialogue\Initiate\ProximityInitiator.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\BackNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\ContinueWhenNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\DoNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\EndNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\HideNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\IfNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\LogNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\OnceNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\OptionNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\OptionsNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\ParallelNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\PauseNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\SequentialNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\ShowNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\SoundNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\WhileNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\WriteNode.cs" />
-    <Compile Include="Assets\FluentDialogue\Nodes\YellNode.cs" />
-    <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\CollectableBounce.cs" />
-    <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\Door.cs" />
-    <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\FadeScript.cs" />
-    <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\MenuButtons.cs" />
-    <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\SpikeTrap.cs" />
-    <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\Tile.cs" />
-    <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\TimedAnimations.cs" />
-    <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\Trigger.cs" />
-    <Compile Include="Assets\InvantorySystem\Scripts\CollectableObject.cs" />
-    <Compile Include="Assets\InvantorySystem\Scripts\Example\ExampleHealth.cs" />
-    <Compile Include="Assets\InvantorySystem\Scripts\Example\ExamplePlayer.cs" />
-    <Compile Include="Assets\InvantorySystem\Scripts\Example\SmoothMouseLook.cs" />
-    <Compile Include="Assets\InvantorySystem\Scripts\Invantory.cs" />
-    <Compile Include="Assets\InvantorySystem\Scripts\InvantoryItemLogic.cs" />
-    <Compile Include="Assets\InvantorySystem\Scripts\InvantoryObject.cs" />
-    <Compile Include="Assets\InvantorySystem\Scripts\InvantorySlot.cs" />
-    <Compile Include="Assets\InvantorySystem\Scripts\Logic\Medkit.cs" />
-    <Compile Include="Assets\InvantorySystem\Scripts\RuntimeInvantoryLogic.cs" />
-    <Compile Include="Assets\Scripts\ActivarReloj.cs" />
-    <Compile Include="Assets\Scripts\BotonRespuesta.cs" />
-    <Compile Include="Assets\Scripts\CameraConfiner.cs" />
-    <Compile Include="Assets\Scripts\ControladorDialogo.cs" />
-    <Compile Include="Assets\Scripts\Dialogo.cs" />
-    <Compile Include="Assets\Scripts\Draggable.cs" />
-    <Compile Include="Assets\Scripts\Drop.cs" />
-    <Compile Include="Assets\Scripts\GoldPickUp.cs" />
-    <Compile Include="Assets\Scripts\Interactable\Interactable.cs" />
-    <Compile Include="Assets\Scripts\Interactable\Liftable.cs" />
-    <Compile Include="Assets\Scripts\InteractDetect.cs" />
-    <Compile Include="Assets\Scripts\Minutos.cs" />
-    <Compile Include="Assets\Scripts\MoneyManager.cs" />
-    <Compile Include="Assets\Scripts\MouseCursor.cs" />
-    <Compile Include="Assets\Scripts\MovableSorterManager.cs" />
-    <Compile Include="Assets\Scripts\NpcTalk.cs" />
-    <Compile Include="Assets\Scripts\PetFollow.cs" />
-    <Compile Include="Assets\Scripts\PlayerInput.cs" />
-    <Compile Include="Assets\Scripts\PlayerSO.cs" />
-    <Compile Include="Assets\Scripts\reloj.cs" />
-    <Compile Include="Assets\Scripts\Respuesta.cs" />
-    <Compile Include="Assets\Scripts\RestaHoras.cs" />
-    <Compile Include="Assets\Scripts\RestaMinutos.cs" />
-    <Compile Include="Assets\Scripts\Rotation.cs" />
-    <Compile Include="Assets\Scripts\StaticSpritesSorterManager.cs" />
-    <Compile Include="Assets\Scripts\SumaHoras.cs" />
-    <Compile Include="Assets\Scripts\SumaMinutos.cs" />
-    <Compile Include="Assets\Scripts\Warp.cs" />
-    <Compile Include="Assets\Shapes2D\Demos\DragCamera.cs" />
-    <Compile Include="Assets\Shapes2D\Demos\Flappy Shapes\Bird.cs" />
-    <Compile Include="Assets\Shapes2D\Demos\Flappy Shapes\Game.cs" />
-    <Compile Include="Assets\Shapes2D\Demos\InputUtils.cs" />
-    <Compile Include="Assets\Shapes2D\Demos\Showcase\PacMan.cs" />
-    <Compile Include="Assets\Shapes2D\Demos\Simple Effect\EffectDemo.cs" />
-    <Compile Include="Assets\Shapes2D\Demos\Simple Effect\TapEffect.cs" />
-    <Compile Include="Assets\Shapes2D\Demos\Stress Test\Spawner.cs" />
-    <Compile Include="Assets\Shapes2D\Scripts\PolyMap.cs" />
-    <Compile Include="Assets\Shapes2D\Scripts\Shape.cs" />
-    <Compile Include="Assets\Shapes2D\Scripts\Shapes2DPrefs.cs" />
-    <None Include="Assets\Shapes2D\Shaders\Shape.shader" />
-    <None Include="Assets\Shapes2D\Shaders\Common.cginc" />
-    <None Include="Assets\Shapes2D\changelog.txt" />
-    <None Include="Assets\InvantorySystem\Licence.txt" />
-    <None Include="Assets\Dino\changelog.txt" />
-    <None Include="Assets\Shapes2D\Shaders\Path.cginc" />
-    <None Include="Assets\FluentDialogue\ReadMe.txt" />
-    <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
-    <None Include="Assets\Shapes2D\readme.txt" />
-    <None Include="Assets\Shapes2D\Shaders\Triangle.cginc" />
-    <None Include="Assets\Shapes2D\Shaders\Ellipse.cginc" />
-    <None Include="Assets\Shapes2D\Shaders\Rectangle.cginc" />
-    <None Include="Assets\Shapes2D\Shaders\Polygon.cginc" />
-    <Reference Include="Facebook.Unity.Settings">
-      <HintPath>C:/Users/Usuario/Desktop/Unity/matspath/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.1f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.1f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.1f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.1f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Timeline">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.1f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIAutomation">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.1f1/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.GoogleAudioSpatializer">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.1f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.HoloLens">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.1f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.1f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>C:/Users/Usuario/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Users/Usuario/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBlendListCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineBrain.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineClearShot.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineCollider.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineConfiner.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineDollyCart.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineExternalCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineFollowZoom.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineFreeLook.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineMixingCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachinePath.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachinePipeline.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoothPath.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineStateDrivenCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineTargetGroup.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Behaviours\CinemachineVirtualCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineComposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineFramingTransposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineGroupComposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineHardLockToTarget.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineHardLookAt.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineOrbitalTransposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachinePOV.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineSameAsFollowObject.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineTrackedDolly.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Components\CinemachineTransposer.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\AxisState.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CameraState.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineBlend.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineBlenderSettings.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineComponentBase.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineCore.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineDebugLogger.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineExtension.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachinePathBase.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachinePropertyAttribute.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\GaussianFilter.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ICinemachineCamera.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ICinemachineComponent.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\LensSettings.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\NoiseSettings.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\Predictor.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\ReflectionHelpers.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\SplineHelpers.cs" />
+     <Compile Include="Assets\Cinemachine\Base\Runtime\Core\UnityVectorExtensions.cs" />
+     <Compile Include="Assets\Cinemachine\PostFX\CinemachinePostFX.cs" />
+     <Compile Include="Assets\Cinemachine\PostFX\CinemachinePostProcessing.cs" />
+     <Compile Include="Assets\Cinemachine\Timeline\CinemachineMixer.cs" />
+     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
+     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
+     <Compile Include="Assets\FluentDialogue\Base\FluentNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Base\FluentNodeHandler.cs" />
+     <Compile Include="Assets\FluentDialogue\Base\FluentNodeHandlerAttribute.cs" />
+     <Compile Include="Assets\FluentDialogue\Base\FluentScript.cs" />
+     <Compile Include="Assets\FluentDialogue\Base\FluentString.cs" />
+     <Compile Include="Assets\FluentDialogue\Base\HighlightFix.cs" />
+     <Compile Include="Assets\FluentDialogue\Base\Language.cs" />
+     <Compile Include="Assets\FluentDialogue\Base\LanguageManager.cs" />
+     <Compile Include="Assets\FluentDialogue\Base\OptionsPresenter.cs" />
+     <Compile Include="Assets\FluentDialogue\Base\SoundPlayer.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\BlueGuy2.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation0.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation1.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation10.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation11.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation12.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation13.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation14.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation15.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation16.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation2.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation3.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation4.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation5.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation6.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation7.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation8.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Conversation9.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\ConversationWithImage.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\MyFluentDialogue.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\Player.cs" />
+     <Compile Include="Assets\FluentDialogue\Example\RedGuy2.cs" />
+     <Compile Include="Assets\FluentDialogue\FluentNodeHandlers\ContinueWhenHandler.cs" />
+     <Compile Include="Assets\FluentDialogue\FluentNodeHandlers\PauseFluentNodeHandler.cs" />
+     <Compile Include="Assets\FluentDialogue\FluentNodeHandlers\SoundHandler.cs" />
+     <Compile Include="Assets\FluentDialogue\FluentNodeHandlers\WriteHandler.cs" />
+     <Compile Include="Assets\FluentDialogue\FluentNodeHandlers\YellHandler.cs" />
+     <Compile Include="Assets\FluentDialogue\Initiate\ClickInitiator.cs" />
+     <Compile Include="Assets\FluentDialogue\Initiate\FluentManager.cs" />
+     <Compile Include="Assets\FluentDialogue\Initiate\GameAction.cs" />
+     <Compile Include="Assets\FluentDialogue\Initiate\GameActionInitiator.cs" />
+     <Compile Include="Assets\FluentDialogue\Initiate\ProximityInitiator.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\BackNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\ContinueWhenNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\DoNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\EndNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\HideNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\IfNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\LogNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\OnceNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\OptionNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\OptionsNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\ParallelNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\PauseNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\SequentialNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\ShowNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\SoundNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\WhileNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\WriteNode.cs" />
+     <Compile Include="Assets\FluentDialogue\Nodes\YellNode.cs" />
+     <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\CollectableBounce.cs" />
+     <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\Door.cs" />
+     <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\FadeScript.cs" />
+     <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\MenuButtons.cs" />
+     <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\SpikeTrap.cs" />
+     <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\Tile.cs" />
+     <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\TimedAnimations.cs" />
+     <Compile Include="Assets\HyperLuminal\2D Fantasy Forest Tileset\Scripts\Trigger.cs" />
+     <Compile Include="Assets\InvantorySystem\Scripts\CollectableObject.cs" />
+     <Compile Include="Assets\InvantorySystem\Scripts\Example\ExampleHealth.cs" />
+     <Compile Include="Assets\InvantorySystem\Scripts\Example\ExamplePlayer.cs" />
+     <Compile Include="Assets\InvantorySystem\Scripts\Example\SmoothMouseLook.cs" />
+     <Compile Include="Assets\InvantorySystem\Scripts\Invantory.cs" />
+     <Compile Include="Assets\InvantorySystem\Scripts\InvantoryItemLogic.cs" />
+     <Compile Include="Assets\InvantorySystem\Scripts\InvantoryObject.cs" />
+     <Compile Include="Assets\InvantorySystem\Scripts\InvantorySlot.cs" />
+     <Compile Include="Assets\InvantorySystem\Scripts\Logic\Medkit.cs" />
+     <Compile Include="Assets\InvantorySystem\Scripts\RuntimeInvantoryLogic.cs" />
+     <Compile Include="Assets\Scripts\ActivarReloj.cs" />
+     <Compile Include="Assets\Scripts\BotonRespuesta.cs" />
+     <Compile Include="Assets\Scripts\CameraConfiner.cs" />
+     <Compile Include="Assets\Scripts\ControladorDialogo.cs" />
+     <Compile Include="Assets\Scripts\Dialogo.cs" />
+     <Compile Include="Assets\Scripts\Draggable.cs" />
+     <Compile Include="Assets\Scripts\Drop.cs" />
+     <Compile Include="Assets\Scripts\GoldPickUp.cs" />
+     <Compile Include="Assets\Scripts\Interactable\Interactable.cs" />
+     <Compile Include="Assets\Scripts\Interactable\Liftable.cs" />
+     <Compile Include="Assets\Scripts\InteractDetect.cs" />
+     <Compile Include="Assets\Scripts\Minutos.cs" />
+     <Compile Include="Assets\Scripts\MoneyManager.cs" />
+     <Compile Include="Assets\Scripts\MouseCursor.cs" />
+     <Compile Include="Assets\Scripts\MovableSorterManager.cs" />
+     <Compile Include="Assets\Scripts\NpcTalk.cs" />
+     <Compile Include="Assets\Scripts\PetFollow.cs" />
+     <Compile Include="Assets\Scripts\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\PlayerSO.cs" />
+     <Compile Include="Assets\Scripts\reloj.cs" />
+     <Compile Include="Assets\Scripts\Respuesta.cs" />
+     <Compile Include="Assets\Scripts\RestaHoras.cs" />
+     <Compile Include="Assets\Scripts\RestaMinutos.cs" />
+     <Compile Include="Assets\Scripts\Rotation.cs" />
+     <Compile Include="Assets\Scripts\StaticSpritesSorterManager.cs" />
+     <Compile Include="Assets\Scripts\SumaHoras.cs" />
+     <Compile Include="Assets\Scripts\SumaMinutos.cs" />
+     <Compile Include="Assets\Scripts\Warp.cs" />
+     <Compile Include="Assets\Shapes2D\Demos\DragCamera.cs" />
+     <Compile Include="Assets\Shapes2D\Demos\Flappy Shapes\Bird.cs" />
+     <Compile Include="Assets\Shapes2D\Demos\Flappy Shapes\Game.cs" />
+     <Compile Include="Assets\Shapes2D\Demos\InputUtils.cs" />
+     <Compile Include="Assets\Shapes2D\Demos\Showcase\PacMan.cs" />
+     <Compile Include="Assets\Shapes2D\Demos\Simple Effect\EffectDemo.cs" />
+     <Compile Include="Assets\Shapes2D\Demos\Simple Effect\TapEffect.cs" />
+     <Compile Include="Assets\Shapes2D\Demos\Stress Test\Spawner.cs" />
+     <Compile Include="Assets\Shapes2D\Scripts\PolyMap.cs" />
+     <Compile Include="Assets\Shapes2D\Scripts\Shape.cs" />
+     <Compile Include="Assets\Shapes2D\Scripts\Shapes2DPrefs.cs" />
+     <None Include="Assets\Shapes2D\Shaders\Shape.shader" />
+     <None Include="Assets\Shapes2D\Shaders\Common.cginc" />
+     <None Include="Assets\Shapes2D\changelog.txt" />
+     <None Include="Assets\InvantorySystem\Licence.txt" />
+     <None Include="Assets\Dino\changelog.txt" />
+     <None Include="Assets\Shapes2D\Shaders\Path.cginc" />
+     <None Include="Assets\FluentDialogue\ReadMe.txt" />
+     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
+     <None Include="Assets\Shapes2D\readme.txt" />
+     <None Include="Assets\Shapes2D\Shaders\Triangle.cginc" />
+     <None Include="Assets\Shapes2D\Shaders\Ellipse.cginc" />
+     <None Include="Assets\Shapes2D\Shaders\Rectangle.cginc" />
+     <None Include="Assets\Shapes2D\Shaders\Polygon.cginc" />
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>/home/48275000r/MathPath/matspath/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/home/48275000r/.config/unity3d/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/home/48275000r/.config/unity3d/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -438,4 +281,5 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  
 </Project>
