@@ -34,15 +34,16 @@ public class Draggable : MonoBehaviour
 
 	private void OnMouseOver()
 	{ 
-		print("ASD");
+		
 		if (Input.GetMouseButtonDown(0))
 		{
-			selected = true;
+			selected = true; 
 		}
 	}
 	
 	public void drop()
 	{
+		print("ASD");
 		if (pieza.tag.Equals(objetivo.tag))
 		{
 			float distancia = Vector2.Distance(pieza.transform.position, objetivo.transform.position);
@@ -59,6 +60,7 @@ public class Draggable : MonoBehaviour
 		}
 		else
 		{
+			print("ME CAGO EN TODO");
 			pieza.transform.position = initialPosition;
 		}
 	}

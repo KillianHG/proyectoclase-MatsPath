@@ -7,10 +7,17 @@ TagManager:
   - Obstacle
   - Confiner
   - Triangulo
-  - Rombo
   - Cuadrado
   - Poligono
   - Hexagono
+  - Hexagono2
+  - Hexagono3
+  - Cuadrado2
+  - Cuadrado3
+  - Poligono2
+  - Poligono3
+  - Triangulo2
+  - Triangulo3
   layers:
   - Default
   - TransparentFX
