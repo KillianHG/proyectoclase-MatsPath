@@ -21,7 +21,6 @@ public class MoneyManager : MonoBehaviour {
 	}
 
 	void Update () {
-		print (currentGold);
 		PlayerPrefs.SetInt ("CurrentMoney", currentGold);
 		moneyText.text = "Euros: " + currentGold;
 	}

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerSorterManager : MonoBehaviour
+public class MovableSorterManager : MonoBehaviour
 {
 
     //private int sortingOrderBase = 5000;
-    public int offset = 0;
+    public float offset = 0;
     public GameObject player;
     private SpriteRenderer myRenderer;
     public int sortingLayer;
@@ -25,8 +25,8 @@ public class PlayerSorterManager : MonoBehaviour
         if (timer <= 0f)
         {
             timer = timerMax;
-            myRenderer.sortingOrder = (int)(player.transform.position.y * -100);
-            sortingLayer = (int)(player.transform.position.y * -100);
+            myRenderer.sortingOrder = (int) player.transform.position.y * -100;
+            sortingLayer = (int) player.transform.position.y * -100;
 
         }
     }
