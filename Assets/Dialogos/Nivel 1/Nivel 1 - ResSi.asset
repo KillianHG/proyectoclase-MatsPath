@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14192e4cfc80a4720b39c559d628745b, type: 3}
+  m_Name: Nivel 1 - ResSi
+  m_EditorClassIdentifier: 
+  dialogo: Bien... tendras que responder correctamente las siguientes sumas para llevarte
+    una recompensa bien merecida.
+  RespuestaCorrecta: 0
+  respuestas:
+  - respuesta: Estoy listo!!
+    proximoDialogo: {fileID: 11400000, guid: 6df8bcf544ca14aef88418bd6f16fd48, type: 2}
