@@ -14,3 +14,5 @@ MonoBehaviour:
   euros: 0
   spawnPositionX: 0
   spawnPositionY: 0
+  spawnWarp: 3
+  warpActive: 

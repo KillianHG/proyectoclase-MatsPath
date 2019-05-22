@@ -6,8 +6,12 @@ using UnityEngine.Assertions;
 public class Warp : MonoBehaviour
 {
 
+    public string uniqueID;
     public GameObject target;
     public GameObject targetMap;
+    public GameObject currentMap;
+
+    public bool active = false;
 
     PolygonCollider2D targetConfiner;
     CameraConfiner cam;

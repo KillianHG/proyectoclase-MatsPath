@@ -9,5 +9,7 @@ public class PlayerSO : ScriptableObject
 
     public float spawnPositionX = 0;
     public float spawnPositionY = 0;
+    public string spawnWarp;
+    public bool[] warpActive;
     
 }

@@ -9,6 +9,7 @@ public class PlayerInput : MonoBehaviour {
     public PlayerSO so;
 
     public bool canInteract;
+    
     public Interactable interactable;
 
     Animator anim;
@@ -21,7 +22,6 @@ public class PlayerInput : MonoBehaviour {
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        rb.position = new Vector2(so.spawnPositionX, so.spawnPositionY);
 
         interactCollider = transform.GetChild(0).GetComponent<CircleCollider2D>();
     }

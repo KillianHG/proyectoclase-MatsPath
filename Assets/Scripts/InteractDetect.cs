@@ -10,7 +10,7 @@ public class InteractDetect : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.gameObject.GetComponent<Interactable>())
+		if (other.gameObject.GetComponent<Interactable>() && player.GetComponent<PlayerInput>().interactable == null)
 		{
 			player.GetComponent<PlayerInput>().canInteract = true;
 			other.gameObject.GetComponent<Interactable>().player = player;
