@@ -261,9 +261,12 @@
         <e p="BotonRespuesta.cs" t="Include" />
         <e p="CameraConfiner.cs" t="Include" />
         <e p="ControladorDialogo.cs" t="Include" />
+        <e p="ControladorDialogoReloj.cs" t="Include" />
         <e p="Dialogo.cs" t="Include" />
+        <e p="DialogoReloh.cs" t="Include" />
         <e p="Draggable.cs" t="Include" />
         <e p="Drop.cs" t="Include" />
+        <e p="EslaHora.cs" t="Include" />
         <e p="GoldPickUp.cs" t="Include" />
         <e p="InteractDetect.cs" t="Include" />
         <e p="Interactable" t="Include">
