@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Name: RespuestaA
   m_EditorClassIdentifier: 
   dialogo: deberias fijarte mas,quieres otra oportunidad?
+  RespuestaCorrecta: 0
   respuestas:
   - respuesta: si
     proximoDialogo: {fileID: 11400000, guid: d8b7d9608eab541a6b72fc12c2fe9330, type: 2}
   - respuesta: no
-    proximoDialogo: {fileID: 0}
+    proximoDialogo: {fileID: 11400000, guid: 16196bfb6cad84a88b07bc1d8ec5dea4, type: 2}
