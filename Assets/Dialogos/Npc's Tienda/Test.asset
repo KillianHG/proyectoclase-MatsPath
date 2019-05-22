@@ -11,7 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14192e4cfc80a4720b39c559d628745b, type: 3}
   m_Name: Test
   m_EditorClassIdentifier: 
-  dialogo: Hola , sabes cuanto me costarian 2 barras de pan 5 manzanas y 3 botellas?
+  dialogo: Hola , sabes cuanto me costarian 2 barras de pan 5 manzanas y 3 botellas
+    de agua?
   RespuestaCorrecta: 0
   respuestas:
   - respuesta: si

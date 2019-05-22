@@ -14,9 +14,9 @@ MonoBehaviour:
   dialogo: Quanto?
   RespuestaCorrecta: 0
   respuestas:
-  - respuesta: 
-    proximoDialogo: {fileID: 0}
-  - respuesta: 
-    proximoDialogo: {fileID: 0}
-  - respuesta: 
-    proximoDialogo: {fileID: 0}
+  - respuesta: "9.75\u20AC"
+    proximoDialogo: {fileID: 11400000, guid: 3c69e50615c9543afb2bb94bc3dda343, type: 2}
+  - respuesta: "10\u20AC"
+    proximoDialogo: {fileID: 11400000, guid: ea42eb91b849f4f1890d2dd903444348, type: 2}
+  - respuesta: "8,50\u20AC"
+    proximoDialogo: {fileID: 11400000, guid: ea42eb91b849f4f1890d2dd903444348, type: 2}
