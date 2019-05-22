@@ -351,9 +351,12 @@
     <Compile Include="Assets\Scripts\BotonRespuesta.cs" />
     <Compile Include="Assets\Scripts\CameraConfiner.cs" />
     <Compile Include="Assets\Scripts\ControladorDialogo.cs" />
+    <Compile Include="Assets\Scripts\ControladorDialogoReloj.cs" />
     <Compile Include="Assets\Scripts\Dialogo.cs" />
+    <Compile Include="Assets\Scripts\DialogoReloh.cs" />
     <Compile Include="Assets\Scripts\Draggable.cs" />
     <Compile Include="Assets\Scripts\Drop.cs" />
+    <Compile Include="Assets\Scripts\EslaHora.cs" />
     <Compile Include="Assets\Scripts\GoldPickUp.cs" />
     <Compile Include="Assets\Scripts\Interactable\Interactable.cs" />
     <Compile Include="Assets\Scripts\Interactable\Liftable.cs" />

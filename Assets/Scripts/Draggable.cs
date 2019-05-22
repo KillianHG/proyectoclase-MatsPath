@@ -14,6 +14,7 @@ public class Draggable : MonoBehaviour
 	void Start()
 	{
 		initialPosition = pieza.transform.position;
+		print(initialPosition);
 	}
 
 
@@ -43,15 +44,12 @@ public class Draggable : MonoBehaviour
 	
 	public void drop()
 	{
-		print("ASD");
 		if (pieza.tag.Equals(objetivo.tag))
 		{
 			float distancia = Vector2.Distance(pieza.transform.position, objetivo.transform.position);
-			print("distancia" + distancia);
 			if (distancia < 1)
 			{
 				pieza.transform.position = objetivo.transform.position;
-				print("ENCAJA");
 			}
 			else
 			{
@@ -60,7 +58,6 @@ public class Draggable : MonoBehaviour
 		}
 		else
 		{
-			print("ME CAGO EN TODO");
 			pieza.transform.position = initialPosition;
 		}
 	}
