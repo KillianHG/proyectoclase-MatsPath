@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14192e4cfc80a4720b39c559d628745b, type: 3}
+  m_Name: Buenaa
+  m_EditorClassIdentifier: 
+  dialogo: "Mmm, no esta mal, \xBFquieres continuar?"
+  RespuestaCorrecta: 0
+  respuestas:
+  - respuesta: Si
+    proximoDialogo: {fileID: 11400000, guid: ac56e3eac81352b4a8d95f6f79ac4fb2, type: 2}
+  - respuesta: No
+    proximoDialogo: {fileID: 11400000, guid: 162888ec6cfca204182be732d105747b, type: 2}
