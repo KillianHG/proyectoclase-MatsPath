@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14192e4cfc80a4720b39c559d628745b, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  dialogo: "\xBFComo se llama la figura Naranja?"
+  RespuestaCorrecta: 0
+  respuestas:
+  - respuesta: Cuadrado
+    proximoDialogo: {fileID: 11400000, guid: 47cde91896b4d084c9e0625c42707526, type: 2}
+  - respuesta: Rectangulo
+    proximoDialogo: {fileID: 11400000, guid: 94fe9f195ce97f64397b5010dc1fc374, type: 2}
+  - respuesta: Triangulo
+    proximoDialogo: {fileID: 11400000, guid: 47cde91896b4d084c9e0625c42707526, type: 2}

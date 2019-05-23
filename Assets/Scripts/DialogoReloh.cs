@@ -31,9 +31,7 @@ public class DialogoReloh : MonoBehaviour {
 			if (!reloj.bien)
 			{
 			other.GetComponent<PlayerInput> ().speed = 0;
-
 			
-
 				if (!dialogoConcluido)
 				{
 					controlDialogoR.ProximoDialogo(npcTalk[0]);

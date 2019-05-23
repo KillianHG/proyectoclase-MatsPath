@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14192e4cfc80a4720b39c559d628745b, type: 3}
+  m_Name: Aprox2
+  m_EditorClassIdentifier: 
+  dialogo: 'Bien hecho! Veamos ahora... Aproxima el siguiente numero a las centenas:
+    182'
+  RespuestaCorrecta: 0
+  respuestas:
+  - respuesta: 200
+    proximoDialogo: {fileID: 11400000, guid: fc77a5672df71fc4a88ce389dfc0a096, type: 2}
+  - respuesta: 180
+    proximoDialogo: {fileID: 11400000, guid: 6e8e0f414925bc0489a097f9c4b67dca, type: 2}
+  - respuesta: 100
+    proximoDialogo: {fileID: 11400000, guid: 6e8e0f414925bc0489a097f9c4b67dca, type: 2}

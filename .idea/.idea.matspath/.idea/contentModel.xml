@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$/../.Rider2019.1/system/extResources" t="IncludeRecursive" />
-    <e p="$PROJECT_DIR$/../.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_matspath.141710046.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\ricar\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ricar\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_matspath.642545566.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ricar\matspath" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets/Cinemachine" t="Include">
+      <e p="Assets\Cinemachine" t="Include">
         <e p="Base" t="Include">
           <e p="Editor" t="Include">
             <e p="Editors" t="Include">
               <e p="CinemachineBasicMultiChannelPerlinEditor.cs" t="Include" />
-              <e p="CinemachineBlendListCameraEditor.cs" t="Include" />
               <e p="CinemachineBlenderSettingsEditor.cs" t="Include" />
+              <e p="CinemachineBlendListCameraEditor.cs" t="Include" />
               <e p="CinemachineBrainEditor.cs" t="Include" />
               <e p="CinemachineClearShotEditor.cs" t="Include" />
               <e p="CinemachineColliderEditor.cs" t="Include" />
@@ -26,8 +26,8 @@
               <e p="CinemachineHardLookAtEditor.cs" t="Include" />
               <e p="CinemachineMixingCameraEditor.cs" t="Include" />
               <e p="CinemachineOrbitalTransposerEditor.cs" t="Include" />
-              <e p="CinemachinePOVEditor.cs" t="Include" />
               <e p="CinemachinePathEditor.cs" t="Include" />
+              <e p="CinemachinePOVEditor.cs" t="Include" />
               <e p="CinemachineScreenComposerGuides.cs" t="Include" />
               <e p="CinemachineSmoothPathEditor.cs" t="Include" />
               <e p="CinemachineStateDrivenCameraEditor.cs" t="Include" />
@@ -74,8 +74,8 @@
               <e p="CinemachineMixingCamera.cs" t="Include" />
               <e p="CinemachinePath.cs" t="Include" />
               <e p="CinemachinePipeline.cs" t="Include" />
-              <e p="CinemachineSmoothPath.cs" t="Include" />
               <e p="CinemachineSmoother.cs" t="Include" />
+              <e p="CinemachineSmoothPath.cs" t="Include" />
               <e p="CinemachineStateDrivenCamera.cs" t="Include" />
               <e p="CinemachineTargetGroup.cs" t="Include" />
               <e p="CinemachineVirtualCamera.cs" t="Include" />
@@ -135,10 +135,10 @@
           </e>
         </e>
       </e>
-      <e p="Assets/Dino" t="Include">
+      <e p="Assets\Dino" t="Include">
         <e p="changelog.txt" t="Include" />
       </e>
-      <e p="Assets/FluentDialogue" t="Include">
+      <e p="Assets\FluentDialogue" t="Include">
         <e p="Base" t="Include">
           <e p="FluentNode.cs" t="Include" />
           <e p="FluentNodeHandler.cs" t="Include" />
@@ -217,7 +217,7 @@
         </e>
         <e p="ReadMe.txt" t="Include" />
       </e>
-      <e p="Assets/HyperLuminal" t="Include">
+      <e p="Assets\HyperLuminal" t="Include">
         <e p="2D Fantasy Forest Tileset" t="Include">
           <e p="Scripts" t="Include">
             <e p="CameraFollow.cs" t="Include" />
@@ -233,7 +233,7 @@
           </e>
         </e>
       </e>
-      <e p="Assets/InvantorySystem" t="Include">
+      <e p="Assets\InvantorySystem" t="Include">
         <e p="Editor" t="Include">
           <e p="InvantoryItemCreatorWizzard.cs" t="Include" />
           <e p="ScriptableObjectUtility.cs" t="Include" />
@@ -256,23 +256,27 @@
           <e p="RuntimeInvantoryLogic.cs" t="Include" />
         </e>
       </e>
-      <e p="Assets/Scripts" t="Include">
+      <e p="Assets\Low_Poly_Pixel_2D_Blocks_Devils_Garage_v04" t="Include">
+        <e p="ReadMe.txt" t="Include" />
+      </e>
+      <e p="Assets\Scripts" t="Include">
         <e p="ActivarReloj.cs" t="Include" />
         <e p="BotonRespuesta.cs" t="Include" />
         <e p="CameraConfiner.cs" t="Include" />
         <e p="ControladorDialogo.cs" t="Include" />
         <e p="ControladorDialogoReloj.cs" t="Include" />
+        <e p="CuentaLiftable.cs" t="Include" />
         <e p="Dialogo.cs" t="Include" />
         <e p="DialogoReloh.cs" t="Include" />
         <e p="Draggable.cs" t="Include" />
         <e p="Drop.cs" t="Include" />
         <e p="EslaHora.cs" t="Include" />
         <e p="GoldPickUp.cs" t="Include" />
-        <e p="InteractDetect.cs" t="Include" />
         <e p="Interactable" t="Include">
           <e p="Interactable.cs" t="Include" />
           <e p="Liftable.cs" t="Include" />
         </e>
+        <e p="InteractDetect.cs" t="Include" />
         <e p="Minutos.cs" t="Include" />
         <e p="MoneyManager.cs" t="Include" />
         <e p="MouseCursor.cs" t="Include" />
@@ -281,6 +285,7 @@
         <e p="PetFollow.cs" t="Include" />
         <e p="PlayerInput.cs" t="Include" />
         <e p="PlayerSO.cs" t="Include" />
+        <e p="reloj.cs" t="Include" />
         <e p="Respuesta.cs" t="Include" />
         <e p="RestaHoras.cs" t="Include" />
         <e p="RestaMinutos.cs" t="Include" />
@@ -289,9 +294,9 @@
         <e p="SumaHoras.cs" t="Include" />
         <e p="SumaMinutos.cs" t="Include" />
         <e p="Warp.cs" t="Include" />
-        <e p="reloj.cs" t="Include" />
       </e>
-      <e p="Assets/Shapes2D" t="Include">
+      <e p="Assets\Shapes2D" t="Include">
+        <e p="changelog.txt" t="Include" />
         <e p="Demos" t="Include">
           <e p="DragCamera.cs" t="Include" />
           <e p="Flappy Shapes" t="Include">
@@ -315,6 +320,7 @@
           <e p="MenuItems.cs" t="Include" />
           <e p="ShapeEditor.cs" t="Include" />
         </e>
+        <e p="ReadMe.txt" t="Include" />
         <e p="Scripts" t="Include">
           <e p="PolyMap.cs" t="Include" />
           <e p="Shape.cs" t="Include" />
@@ -329,20 +335,18 @@
           <e p="Shape.shader" t="Include" />
           <e p="Triangle.cginc" t="Include" />
         </e>
-        <e p="changelog.txt" t="Include" />
-        <e p="readme.txt" t="Include" />
       </e>
-      <e p="Assets/VSCode" t="Include">
+      <e p="Assets\VSCode" t="Include">
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="VSCode.cs" t="Include" />
           </e>
         </e>
       </e>
-      <e p="Temp/bin" t="ExcludeRecursive" />
       <e p="matspath.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

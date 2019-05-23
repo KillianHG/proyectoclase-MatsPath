@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14192e4cfc80a4720b39c559d628745b, type: 3}
   m_Name: Panadero 1
   m_EditorClassIdentifier: 
-  dialogo: "Hola ,soy el panadero, cada barra de pan cuesta 0,50\u20AC"
+  dialogo: "Hola, soy el panadero, cada barra de pan cuesta 0,50\u20AC"
   RespuestaCorrecta: 0
   respuestas: []

@@ -346,6 +346,7 @@
     <Compile Include="Assets\Scripts\CameraConfiner.cs" />
     <Compile Include="Assets\Scripts\ControladorDialogo.cs" />
     <Compile Include="Assets\Scripts\ControladorDialogoReloj.cs" />
+    <Compile Include="Assets\Scripts\CuentaLiftable.cs" />
     <Compile Include="Assets\Scripts\Dialogo.cs" />
     <Compile Include="Assets\Scripts\DialogoReloh.cs" />
     <Compile Include="Assets\Scripts\Draggable.cs" />
@@ -386,6 +387,7 @@
     <None Include="Assets\Shapes2D\Shaders\Shape.shader" />
     <None Include="Assets\Shapes2D\Shaders\Common.cginc" />
     <None Include="Assets\Shapes2D\changelog.txt" />
+    <None Include="Assets\Low_Poly_Pixel_2D_Blocks_Devils_Garage_v04\readme.txt" />
     <None Include="Assets\InvantorySystem\Licence.txt" />
     <None Include="Assets\Dino\changelog.txt" />
     <None Include="Assets\Shapes2D\Shaders\Path.cginc" />

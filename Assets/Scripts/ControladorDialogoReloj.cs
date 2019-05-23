@@ -53,11 +53,11 @@ public class ControladorDialogoReloj : MonoBehaviour {
 			tempRespuesta.GetComponent<Button> ().onClick.RemoveAllListeners ();
 			int index = i;
 			tempRespuesta.GetComponent<Button> ().onClick.AddListener (delegate {
-					print("A");
-					print(moneda.activeSelf);
-					moneda.SetActive(true);
-					print(moneda.activeSelf);	
-					print("---");
+			print("A");
+			print(moneda.activeSelf);
+			moneda.SetActive(true);
+			print(moneda.activeSelf);	
+			print("---");
 				
 
 				ProximoDialogo(dialogos.respuestas[index].proximoDialogo);

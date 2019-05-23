@@ -4,20 +4,27 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Obstacle
-  - Confiner
-  - Triangulo
-  - Cuadrado
-  - Poligono
-  - Hexagono
-  - Hexagono2
-  - Hexagono3
-  - Cuadrado2
-  - Cuadrado3
-  - Poligono2
-  - Poligono3
-  - Triangulo2
-  - Triangulo3
+  - Estrella
+  - Undefined
+  - C1
+  - C2
+  - C3
+  - T1
+  - T2
+  - T3
+  - P1
+  - P2
+  - P3
+  - H1
+  - H2
+  - H3
+  - R1
+  - R2
+  - R3
+  - 15
+  - 12
+  - 7
+  - 3
   layers:
   - Default
   - TransparentFX

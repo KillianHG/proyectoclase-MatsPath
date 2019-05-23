@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14192e4cfc80a4720b39c559d628745b, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  dialogo: Se te da bien esto! Vayamos con una mas dificil. Cuanto es 3x4 ?
+  RespuestaCorrecta: 0
+  respuestas:
+  - respuesta: 6
+    proximoDialogo: {fileID: 11400000, guid: e2f8d2d04d2935e479ce982bfa8de4c7, type: 2}
+  - respuesta: 12
+    proximoDialogo: {fileID: 11400000, guid: 128c1ee1c1586b34cb849ee851d26265, type: 2}
+  - respuesta: 7
+    proximoDialogo: {fileID: 11400000, guid: e2f8d2d04d2935e479ce982bfa8de4c7, type: 2}
+  - respuesta: 19
+    proximoDialogo: {fileID: 11400000, guid: e2f8d2d04d2935e479ce982bfa8de4c7, type: 2}

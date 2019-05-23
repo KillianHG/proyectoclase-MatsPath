@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14192e4cfc80a4720b39c559d628745b, type: 3}
   m_Name: AfirmacionPrecio
   m_EditorClassIdentifier: 
-  dialogo: Muchas gracias joven!!!
+  dialogo: Muchas gracias joven!
   RespuestaCorrecta: 0
   respuestas: []

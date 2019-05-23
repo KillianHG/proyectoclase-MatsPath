@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14192e4cfc80a4720b39c559d628745b, type: 3}
   m_Name: Dialogo Reloh
   m_EditorClassIdentifier: 
-  dialogo: "\xBFQuieres cambiar la hora?"
+  dialogo: "\xBFQuieres cambiar la hora?q"
   RespuestaCorrecta: 0
   respuestas:
   - respuesta: Vale
