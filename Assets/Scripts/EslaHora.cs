@@ -52,6 +52,8 @@ public class EslaHora : MonoBehaviour
 			print("BUENA");
 			reloj.SetActive(false);
 			bien = true;
+			aux1 = false;
+			aux2 = false;
 		}
 	}
 	

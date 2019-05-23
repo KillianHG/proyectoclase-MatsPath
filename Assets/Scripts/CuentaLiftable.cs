@@ -29,7 +29,7 @@ public class CuentaLiftable : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag.Equals("Liftable"))
+        if (other.gameObject.GetComponent<Interactable>())
         {
             print("EMTRO");
             numero++;
@@ -38,7 +38,7 @@ public class CuentaLiftable : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag.Equals("Liftable"))
+        if (other.gameObject.GetComponent<Interactable>())
         {
             print("SALGO");
             numero--;

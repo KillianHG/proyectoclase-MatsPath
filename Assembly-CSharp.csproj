@@ -350,7 +350,6 @@
     <Compile Include="Assets\Scripts\Dialogo.cs" />
     <Compile Include="Assets\Scripts\DialogoReloh.cs" />
     <Compile Include="Assets\Scripts\Draggable.cs" />
-    <Compile Include="Assets\Scripts\Drop.cs" />
     <Compile Include="Assets\Scripts\EslaHora.cs" />
     <Compile Include="Assets\Scripts\GoldPickUp.cs" />
     <Compile Include="Assets\Scripts\Interactable\Interactable.cs" />
